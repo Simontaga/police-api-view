@@ -1,0 +1,144 @@
+body{
+  background-color: #212121;
+ background-color:#EFEEEE;
+   font-family: 'Roboto', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#header{
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color:#304ffe;
+
+}
+.header{
+  margin: 0 auto;
+
+}
+.event{
+  /*border-radius: 0.2em;
+  border-style: solid;
+  border-color: white;
+  background-color: white; */
+  font-family: 'Roboto', sans-serif;
+  width:50%;
+  margin:0 auto;
+  margin-bottom: 1.4em;
+  margin-top: 1.4em;
+  border-radius: 50px;
+  background: #EFEEEE;
+  background-color: #ebebeb;
+  box-shadow:  20px 20px 60px #cbcaca,
+               -20px -20px 60px #ffffff;
+             padding: 1.2em;
+}
+
+.count{
+  color:white;
+  border-radius: 0.2em;
+  background-color: black;
+  border-color: black;
+}
+.chartParent{
+  clear:both;
+  width:50%;
+  margin: 0 auto;
+
+  background: #ffffff;
+  box-shadow:  41px 41px 82px #d9d9d9,
+               -41px -41px 82px #ffffff;
+               width:50%;
+}
+#myChart{
+  background-color: white;
+  width: 25%;
+  border-radius:50px;
+}
+.pagination li {
+
+  display:inline-block;
+  padding:5px;
+list-style:none;
+}
+.pagination a{
+
+  text-decoration: none;
+/*  border-radius: 0.1em;
+  border-color: orange;
+  background-color: orange; */
+  color:white;
+  margin:0.1em;
+  padding:0.2em;
+
+  border-radius: 2px;
+  background: #c58aff;
+  box-shadow:  7px 7px 0px #a775d9,
+               -7px -7px 0px #e39fff;
+}
+.list{
+
+
+}
+.list li{
+
+  list-style: none;
+}
+#test-list{
+  border-radius: 0.15em;
+  border-color: black;
+  background-color: #EFEEEE;
+
+  width:50%;
+  margin:0 auto;
+
+}
+#goToEvent {
+  color:black;
+  border-radius: 8px;
+  background: #EFEEEE;
+
+}
+.search{
+  /*border-radius: 0.2em;*/
+  font-size: 1.2em;
+  margin:0.2em;
+  margin-top: 1em;
+  margin-bottom: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  border-style: solid;
+  border-color: #EFEEEE;
+  border-radius: 5px;
+
+
+}
+#searchH{
+  color:black;
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+
+}
+.home{
+  float:left;
+  text-decoration: none;
+  color:black;
+  padding: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+
+  border-radius: 5px;
+  background: linear-gradient(145deg, #e6e2e2, #ffffff);
+  box-shadow:  9px 9px 18px #ebe7e7,
+               -9px -9px 18px #ffffff;
+}
+#goToCircleDiag{
+  text-decoration: none;
+  color:black;
+  border-radius: 8px;
+  background-color: #55b9f3;
+  padding:2px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
